@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.justjava.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/gropiuszimmer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="1. When did Bauhaus officially open its door to the first students?"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_group1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="1919" />
+
+                <RadioButton
+                    android:id="@+id/radio_1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="1899" />
+
+                <RadioButton
+                    android:id="@+id/radio_1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="1923" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="2. Who was the founding director of bauhaus?"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_group2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="Walter Gropius" />
+
+                <RadioButton
+                    android:id="@+id/radio_2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="Mies van der Rohe" />
+
+                <RadioButton
+                    android:id="@+id/radio_2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="Henry van der Velde" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="3. Bauhaus style is"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_group3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="Art Nouveau" />
+
+                <RadioButton
+                    android:id="@+id/radio_3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="Modernism" />
+
+                <RadioButton
+                    android:id="@+id/radio_3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="Brutalism" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="4. The main idea of bauhaus was"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_group4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="To distinguish Arts and Crafts" />
+
+                <RadioButton
+                    android:id="@+id/radio_4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="To unite Arts and Crafts" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/checkbox_group5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="5. Bauhaus faculty consisted of following teachers:"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="24dp"
+                android:text="Adolf Loos"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="24dp"
+                android:text="Johannes Itten"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="24dp"
+                android:text="Wassili Kandinsky"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="24dp"
+                android:text="Frank Lloyd Gehry"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_5e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:paddingLeft="24dp"
+                android:text="Oskar Schlemmer"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="6. In which city Bauhaus was established?"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/originCity_input_view6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="Name of the city"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="7. The last director of Bauhaus moved to USA and continued his work there. What was his name?"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_group7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="Lazslo Moholy-Nagy" />
+
+                <RadioButton
+                    android:id="@+id/radio_7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="Mies van der Rohe" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="8. What was the reason of Bauhaus ceasing to exist in 1933?"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_group8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="Political regime in Germany" />
+
+                <RadioButton
+                    android:id="@+id/radio_8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="Extremely high tuition fees" />
+
+                <RadioButton
+                    android:id="@+id/radio_8c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="Lack of new teachers" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit_button_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="125dp"
+                android:layout_marginTop="16dp"
+                android:onClick="submitAnswers"
+                android:text="Submit"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
